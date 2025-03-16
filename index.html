@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея с модальным окном</title>
+    <link rel="stylesheet" href="style.css"> <!-- Подключаем стили -->
+</head>
+<body>
+
+    <!-- Галерея -->
+    <ul class="gallery js-gallery">
+        <!-- Сюда JavaScript добавит элементы галереи -->
+    </ul>
+
+    <!-- Модальное окно -->
+    <div class="lightbox js-lightbox">
+        <div class="lightbox__overlay"></div>
+        <div class="lightbox__content">
+            <img class="lightbox__image" src="" alt="">
+            <button type="button" class="lightbox__button" data-action="close-lightbox">✖</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script> <!-- Подключаем JavaScript -->
+</body>
+</html>
